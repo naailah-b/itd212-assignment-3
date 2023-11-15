@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="enter-tasks.js" defer></script>
+    <link rel="stylesheet" href="css-folder/enter-tasks.css">
+    <title>Enter Tasks</title>
+</head>
+
+<body>
+    <form action="http://localhost:4000" method="post">
+        <div class="container">
+            <img id="img"></img>
+            <div id="title">Enter Tasks</div>
+            <div class="outerbox">
+                <div class="box">
+                    <textarea id="text" name="inputTask" placeholder="enter a task"></textarea>
+                    <button id="btn">submit</button>
+                </div>
+            </div>
+
+            <div id="preTitle">previous entries</div>
+            <div id="line"></div>
+
+            <div class="previous">
+                <ul id="list">
+                    <li class="entry">play video games</li>
+                </ul>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
